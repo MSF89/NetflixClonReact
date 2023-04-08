@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Roboto:wght@300;400;700&display=swap');
+.mainBanner{
+    color: #fff;
+    
+}
+.hero {
+    background-image: url("../Images/heroBanner.jpg");   
+    position: relative;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.content {
+    height: 100vh;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: .5em 2em .5em 2em;
+    margin-left: 1em;
+    background-color:rgba(51,51,51,.5);
+}
+.button:hover{
+    color: #000;
+    background-color: #e6e6e6;
+}
+.description {
+    width: 20em;
+}
+.fadeBottom {
+    position:absolute;
+    top: 30vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,.61), #111);
+}

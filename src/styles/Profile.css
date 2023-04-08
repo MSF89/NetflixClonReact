@@ -1,0 +1,58 @@
+.mainProfile{
+    margin-top: 4em;
+    background-color: #111;
+    color: #fff;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatarProfile{
+    width: 50vw;
+    display: flex;
+}
+.avatarProfile img{
+    height: 10em;
+}
+.details{
+    width: 100%;
+    margin-left: 2em;
+    
+}
+.details h6{
+    background-color: #aaa;
+    padding: .75em;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+.plans{
+    width: 100%;
+}
+.plansText{
+    border-bottom: 1px solid lightgray;
+}
+
+.mainPlans{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainPlans button{
+    margin-bottom: 1em;
+}
+.standard{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 934px) {
+
+    .mainProfile{
+        margin-top: 3.5em;
+    }
+    .avatarProfile img{
+        display: none;
+    }
+}
